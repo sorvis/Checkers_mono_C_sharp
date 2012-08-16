@@ -1,0 +1,4 @@
+/home/steven/Documents/c_sharp_projects/Checkers/Checkers/bin/AutoTest.Net/Checkers.dll.mdb
+/home/steven/Documents/c_sharp_projects/Checkers/Checkers/bin/AutoTest.Net/Checkers.dll
+/home/steven/Documents/c_sharp_projects/Checkers/Checkers/bin/AutoTest.Net/_tmpIntermediateAT/Checkers.dll
+/home/steven/Documents/c_sharp_projects/Checkers/Checkers/bin/AutoTest.Net/_tmpIntermediateAT/Checkers.dll.mdb
