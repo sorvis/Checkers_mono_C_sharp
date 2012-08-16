@@ -38,6 +38,13 @@
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Piece_unittest.UnitTest.cs" />
+    <Compile Include="Board_unittest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\Checkers\Checkers.csproj">
+      <Project>{BAE59232-D6BF-41B9-B6CA-333222245548}</Project>
+      <Name>Checkers</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
