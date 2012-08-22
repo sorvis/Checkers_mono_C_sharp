@@ -4,7 +4,7 @@ namespace Checkers
 {
 	public interface IPiece
 	{
-		BoardLocation Location{ get; }
+		BoardLocation Location{ get; set;}
 	}
 }
 
