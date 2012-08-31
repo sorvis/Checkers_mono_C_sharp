@@ -37,8 +37,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
-    <Compile Include="Piece_unittest.UnitTest.cs" />
     <Compile Include="Board_unittest.cs" />
+    <Compile Include="BoardLocation_unittest.cs" />
+    <Compile Include="BaseCheckerPiece_unittest.UnitTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

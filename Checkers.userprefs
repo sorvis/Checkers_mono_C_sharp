@@ -1,19 +1,19 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Checkers/Board.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Checkers/BaseCheckerPiece.cs">
     <Files>
-      <File FileName="Checkers/Piece.cs" Line="20" Column="14" />
+      <File FileName="Checkers/BaseCheckerPiece.cs" Line="26" Column="25" />
       <File FileName="Checkers/IPiece.cs" Line="8" Column="3" />
-      <File FileName="Checkers.UnitTests/Piece_unittest.UnitTest.cs" Line="14" Column="42" />
-      <File FileName="Checkers.UnitTests/Board_unittest.cs" Line="21" Column="17" />
-      <File FileName="Checkers/Board.cs" Line="13" Column="55" />
+      <File FileName="Checkers.UnitTests/Piece_unittest.UnitTest.cs" Line="26" Column="42" />
+      <File FileName="Checkers/BoardLocation.cs" Line="13" Column="43" />
+      <File FileName="Checkers/Board.cs" Line="31" Column="4" />
+      <File FileName="Checkers.UnitTests/BoardLocation_unittest.cs" Line="8" Column="6" />
+      <File FileName="Checkers.UnitTests/Board_unittest.cs" Line="39" Column="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="Checkers" expanded="True">
-            <Node name="Board.cs" selected="True" />
-          </Node>
+        <State expanded="True" selected="True">
+          <Node name="Checkers" expanded="True" />
           <Node name="Checkers.UnitTests" expanded="True" />
         </State>
       </Pad>

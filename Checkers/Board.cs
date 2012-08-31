@@ -30,19 +30,6 @@ namespace Checkers
 			_pieces[piece.Location.X, piece.Location.Y] = null;
 		}
 
-		public PieceColor GetSquareColor (BoardLocation location)
-		{
-			if (location.X % 2 == 0
-			    && location.Y % 2 == 0)
-			{
-				return PieceColor.White;
-			} 
-			else 
-			{
-				return PieceColor.Black;
-			}
-		}
-
 		IPiece[,] _pieces = new IPiece[8,8];
 	}
 }

@@ -37,10 +37,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
-    <Compile Include="Piece.cs" />
     <Compile Include="Board.cs" />
     <Compile Include="IPiece.cs" />
-    <Compile Include="PieceColor.cs" />
+    <Compile Include="BaseCheckerPiece.cs" />
+    <Compile Include="BoardLocation.cs" />
+    <Compile Include="BlackWhiteColor.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
