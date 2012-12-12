@@ -25,14 +25,14 @@ namespace Checkers.UnitTests
 		[Test]
 		public void board_should_move_a_given_piece()
 		{
-			int x = 0;
-			int x_new = 1;
+			int x = 1;
 			int y = 0;
+			int x_new = 2;
 			int y_new = 1;
 			Board board = new Board();
 			IPiece expected = new BaseCheckerPiece(BlackWhiteColor.Black, x, y);
 			board.AddPiece(expected);
-			board.MovePiece(expected, x_new, y_new);
+			board.MovePiece(expected, new BoardLocation(x_new, y_new));
 			IPiece actual = board.GetPiece(x_new, y_new);
 			Assert.AreEqual(expected, actual);
 			Assert.IsNull(board.GetPiece(x, y));

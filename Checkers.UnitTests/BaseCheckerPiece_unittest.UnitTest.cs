@@ -28,7 +28,18 @@ namespace Checkers.UnitTests
 		}
 
 		[Test]
-		public void base_checker_should_be_able_to_move_to_a_white_space ()
+		public void base_checker_should_be_able_to_move_from_3_0_to_2_1 ()
+		{
+			BoardLocation start = new BoardLocation(3,0);
+			BoardLocation end = new BoardLocation(2,1);
+			BaseCheckerPiece piece = new BaseCheckerPiece(BlackWhiteColor.Black, start);
+			bool expected = true;
+			bool actual = piece.CanPieceMove(end);
+			Assert.AreEqual(expected, actual);
+		}
+
+		[Test]
+		public void base_checker_should_not_be_able_to_move_to_a_white_space ()
 		{
 			BoardLocation start = new BoardLocation(1,0);
 			BoardLocation end = new BoardLocation(1,1);

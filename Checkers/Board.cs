@@ -18,11 +18,23 @@ namespace Checkers
 			return _pieces[x,y];
 		}
 
-		public void MovePiece(IPiece piece, int x, int y)
+		public bool MovePiece (IPiece piece, BoardLocation newLocation)
 		{
-			RemovePiece(piece);
-			piece.Location = new BoardLocation(x, y);
-			AddPiece(piece);
+			RemovePiece (piece);
+			piece.Location = newLocation;
+			AddPiece (piece);
+			return true;
+//			if (piece.CanPieceMove (newLocation))
+//			{
+//				RemovePiece (piece);
+//				piece.Location = newLocation;
+//				AddPiece (piece);
+//				return true;
+//			}
+//			else
+//			{
+//				return false;
+//			}
 		}
 
 		public void RemovePiece(IPiece piece)

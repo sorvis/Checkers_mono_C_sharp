@@ -19,14 +19,17 @@ namespace Checkers
 
 		public bool CanPieceMove (BoardLocation newLocation)
 		{
-			int moveDistance = Math.Abs(newLocation.Y) - Math.Abs(Location.Y);
+			int moveDistance = Math.Abs (newLocation.Y) - Math.Abs (Location.Y);
 			if (newLocation.GetSquareColor () == BlackWhiteColor.White
-			    ||  moveDistance > 1 
-			    || moveDistance == 0)
+				|| moveDistance > 1 
+				|| moveDistance == 0)
 			{
 				return false;
 			}
-			return true;
+			else
+			{
+				return true;
+			}
 		}
 
 		public BlackWhiteColor PieceColor{ get; private set; }
