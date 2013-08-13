@@ -1,0 +1,13 @@
+C:\Users\steven\Documents\Visual Studio 2012\Projects\Checkers.UI\Checkers.UI\bin\Debug\Checkers.UI.exe.config
+C:\Users\steven\Documents\Visual Studio 2012\Projects\Checkers.UI\Checkers.UI\bin\Debug\Checkers.UI.exe
+C:\Users\steven\Documents\Visual Studio 2012\Projects\Checkers.UI\Checkers.UI\bin\Debug\Checkers.UI.pdb
+C:\Users\steven\Documents\Visual Studio 2012\Projects\Checkers.UI\Checkers.UI\obj\Debug\Checkers.UI.csprojResolveAssemblyReference.cache
+C:\Users\steven\Documents\Visual Studio 2012\Projects\Checkers.UI\Checkers.UI\obj\Debug\MainWindow.baml
+C:\Users\steven\Documents\Visual Studio 2012\Projects\Checkers.UI\Checkers.UI\obj\Debug\MainWindow.g.cs
+C:\Users\steven\Documents\Visual Studio 2012\Projects\Checkers.UI\Checkers.UI\obj\Debug\App.g.cs
+C:\Users\steven\Documents\Visual Studio 2012\Projects\Checkers.UI\Checkers.UI\obj\Debug\Checkers.UI_MarkupCompile.cache
+C:\Users\steven\Documents\Visual Studio 2012\Projects\Checkers.UI\Checkers.UI\obj\Debug\Checkers.UI.g.resources
+C:\Users\steven\Documents\Visual Studio 2012\Projects\Checkers.UI\Checkers.UI\obj\Debug\Checkers.UI.Properties.Resources.resources
+C:\Users\steven\Documents\Visual Studio 2012\Projects\Checkers.UI\Checkers.UI\obj\Debug\Checkers.UI.csproj.GenerateResource.Cache
+C:\Users\steven\Documents\Visual Studio 2012\Projects\Checkers.UI\Checkers.UI\obj\Debug\Checkers.UI.exe
+C:\Users\steven\Documents\Visual Studio 2012\Projects\Checkers.UI\Checkers.UI\obj\Debug\Checkers.UI.pdb
