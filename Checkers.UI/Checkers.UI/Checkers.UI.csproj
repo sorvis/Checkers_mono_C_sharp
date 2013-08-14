@@ -69,6 +69,7 @@
     <Compile Include="BoardSquare.xaml.cs">
       <DependentUpon>BoardSquare.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Converters\ColorEnumToBrushesConverter.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
