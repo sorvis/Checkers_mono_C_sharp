@@ -24,3 +24,9 @@ C:\Users\steven\Documents\GitHub\Checkers_mono_C_sharp\Checkers.UI\Checkers.UI\o
 C:\Users\steven\Documents\GitHub\Checkers_mono_C_sharp\Checkers.UI\Checkers.UI\obj\Debug\Checkers.UI.csproj.GenerateResource.Cache
 C:\Users\steven\Documents\GitHub\Checkers_mono_C_sharp\Checkers.UI\Checkers.UI\obj\Debug\Checkers.UI.exe
 C:\Users\steven\Documents\GitHub\Checkers_mono_C_sharp\Checkers.UI\Checkers.UI\obj\Debug\Checkers.UI.pdb
+C:\Users\steven\Documents\GitHub\Checkers_mono_C_sharp\Checkers.UI\Checkers.UI\bin\Debug\Checkers.dll
+C:\Users\steven\Documents\GitHub\Checkers_mono_C_sharp\Checkers.UI\Checkers.UI\bin\Debug\Checkers.pdb
+C:\Users\steven\Documents\GitHub\Checkers_mono_C_sharp\Checkers.UI\Checkers.UI\obj\Debug\BoardSquare.baml
+C:\Users\steven\Documents\GitHub\Checkers_mono_C_sharp\Checkers.UI\Checkers.UI\obj\Debug\BoardSquare.g.cs
+C:\Users\steven\Documents\GitHub\Checkers_mono_C_sharp\Checkers.UI\Checkers.UI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\steven\Documents\GitHub\Checkers_mono_C_sharp\Checkers.UI\Checkers.UI\obj\Debug\Checkers.UI_MarkupCompile.lref
