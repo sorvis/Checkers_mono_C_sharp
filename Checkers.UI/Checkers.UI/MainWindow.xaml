@@ -36,8 +36,7 @@
         <Canvas Grid.Column="2" Grid.Row="0">
             <Canvas.Background>Black</Canvas.Background>
         </Canvas>
-        <local:BoardSquare Grid.Column="3" Grid.Row="0" XPosition="3">
-            <local:BoardSquare.Background>Green</local:BoardSquare.Background>
-        </local:BoardSquare>
+        <local:BoardSquare Grid.Column="3" Grid.Row="0" XPosition="3" YPosition="0"/>
+        <local:BoardSquare Grid.Column="4" Grid.Row="0" XPosition="4" YPosition="0"/>
     </Grid>
 </Window>
