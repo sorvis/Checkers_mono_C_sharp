@@ -26,16 +26,10 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <Canvas Grid.Column="0" Grid.Row="0">
-            <Canvas.Background>Black</Canvas.Background>
-            <Ellipse Fill="Red" Width="60" Height="60" Canvas.Left="30" Canvas.Top="20"/>
-        </Canvas>
-        <Canvas Grid.Column="1" Grid.Row="0">
-            <Canvas.Background>White</Canvas.Background>
-        </Canvas>
-        <Canvas Grid.Column="2" Grid.Row="0">
-            <Canvas.Background>Black</Canvas.Background>
-        </Canvas>
+
+        <local:BoardSquare Grid.Column="0" Grid.Row="0" XPosition="0" YPosition="0"/>
+        <local:BoardSquare Grid.Column="1" Grid.Row="0" XPosition="1" YPosition="0"/>
+        <local:BoardSquare Grid.Column="2" Grid.Row="0" XPosition="2" YPosition="0"/>
         <local:BoardSquare Grid.Column="3" Grid.Row="0" XPosition="3" YPosition="0"/>
         <local:BoardSquare Grid.Column="4" Grid.Row="0" XPosition="4" YPosition="0"/>
     </Grid>

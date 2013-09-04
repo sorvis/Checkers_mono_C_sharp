@@ -21,27 +21,32 @@ namespace Checkers.UI
     /// </summary>
     public partial class BoardSquare : UserControl
     {
+        static BoardSquare()
+        {
+            XPositionProperty =
+                 DependencyProperty.Register("XPosition", typeof(int),
+                 typeof(BoardSquare), new PropertyMetadata(
+                     new PropertyChangedCallback((objectInstance, args) =>
+                     {
+                         BoardSquare boardSquare = (BoardSquare)objectInstance;
+                         boardSquare.Location.X = (int)args.NewValue;
+                         boardSquare.resetBackgroundColorToPosition();
+                     })));
+            YPositionProperty =
+                DependencyProperty.Register("YPosition", typeof(int),
+                typeof(BoardSquare), new PropertyMetadata(
+                    new PropertyChangedCallback((objectInstance, args) =>
+                    {
+                        BoardSquare boardSquare = (BoardSquare)objectInstance;
+                        boardSquare.Location.Y = (int)args.NewValue;
+                        boardSquare.resetBackgroundColorToPosition();
+                    })));
+        }
+
         public BoardSquare()
         {
             InitializeComponent();
             Location = new BoardLocation(Int32.MinValue, Int32.MinValue);
-
-            XPositionProperty =
-                 DependencyProperty.Register("XPosition", typeof(int),
-                 typeof(BoardSquare), new PropertyMetadata(
-                     new PropertyChangedCallback((value, args) => 
-                     { 
-                         Location.X = (int)args.NewValue;
-                         resetBackgroundColorToPosition();
-                     })));
-            YPositionProperty=
-                DependencyProperty.Register("YPosition", typeof(int),
-                typeof(BoardSquare), new PropertyMetadata(
-                    new PropertyChangedCallback((value, args)=>
-                    {
-                        Location.Y = (int)args.NewValue;
-                        resetBackgroundColorToPosition();
-                    })));
         }
 
         private void resetBackgroundColorToPosition()
@@ -49,8 +54,8 @@ namespace Checkers.UI
             this.Background = (Brush)(new ColorEnumToBrushesConverter()).Convert(Location.GetSquareColor(), typeof(BlackWhiteColor), null, null);
         }
 
-        public readonly DependencyProperty XPositionProperty;
-        public readonly DependencyProperty YPositionProperty;
+        public static readonly DependencyProperty XPositionProperty;
+        public static readonly DependencyProperty YPositionProperty;
 
         public int XPosition
         {
